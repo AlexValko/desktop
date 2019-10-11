@@ -1,0 +1,58 @@
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+	background: url('windowsxp.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0px;
+	min-height: 100%;
+	width: 100%;
+}
+			
+.icon {
+	min-width: 108px;
+	padding: 11px;
+	display: inline-block;
+	text-align: center;
+	font-family: Tahoma,Arial,Helvetica Neue,Helvetica,sans-serif;
+	font-size: 12px;
+	color: white;
+	text-shadow: 2px 2px 2px black;	
+	font-smooth: never;
+	-webkit-font-smoothing : none;	
+}
+			
+.iconrow {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	cursor: default;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.shortcut {
+	position: absolute;
+	min-width: 58px;
+	max-width: 58px;
+}
+
+img.icon {
+	
+	min-width: 50px;
+	max-width: 50px;
+	padding: 6px;
+}
+
+a {
+	cursor: default;
+}
